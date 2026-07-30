@@ -1,0 +1,31 @@
+{
+  "name": "create-cpp-debug-files",
+  "displayName": "Create C++ Debug Files",
+  "description": "Creates .vscode/tasks.json and .vscode/launch.json for C++ debugging",
+  "version": "1.0.0",
+  "publisher": "Falk7olve",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:create-cpp-debug-files.createDebugFiles"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "create-cpp-debug-files.createDebugFiles",
+        "title": "Create C++ debug files",
+        "category": "C++ Debug"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FALK7OLVE/vscode-cpp-mingw-debug-files"
+  }
+}
