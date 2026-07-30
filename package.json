@@ -5,11 +5,13 @@
   "version": "1.0.0",
   "publisher": "Falk7olve",
   "license": "MIT",
+  "keywords": ["cpp", "debug", "gdb", "mingw"],
+  "homepage": "https://github.com/FALK7OLVE/vscode-cpp-mingw-debug-files/blob/main/README.md",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
-    "Other"
+    "Other", "Debuggers", "Programming Languages"
   ],
   "activationEvents": [
     "onCommand:create-cpp-debug-files.createDebugFiles"
